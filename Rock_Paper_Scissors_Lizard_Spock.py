@@ -2,9 +2,6 @@
 # coding: utf-8
 
 # In[ ]:
-
-
-# Rock-paper-scissors-lizard-Spock 
  
 import random
  
@@ -34,6 +31,7 @@ def name_to_number(name):
         return 4;
     else:
         print("ERROR Name")
+      
 # convert number to a name using if/elif/else
 def number_to_name(number):
      
@@ -49,9 +47,8 @@ def number_to_name(number):
         return 'scissors';
     else:
         print("ERROR Number")
-def rpsls(player_choice): 
- 
-     
+
+def rpsls(player_choice):  
     # print a blank line to separate consecutive games
     print("\n")
      
@@ -80,17 +77,6 @@ def rpsls(player_choice):
         print("Player wins!")
     elif( difference == 0 ):
         print("Player and computer tie!")
-         
-            
-# test your code - LEAVE THESE CALLS IN YOUR SUBMITTED CODE
-rpsls("rock")
-rpsls("Spock")
-rpsls("paper")
-rpsls("lizard")
-rpsls("scissors")
- 
-# always remember to check your completed program against the grading rubric
-
 
 # In[ ]:
 
